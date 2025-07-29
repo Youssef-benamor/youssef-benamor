@@ -25,13 +25,15 @@ export function Contact() {
     }));
   };
 
+  const API_BASE_URL = import.meta.env.VITE_API_URL || "";
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setLoading(true);
     setStatus("");
 
     try {
-      const response = await fetch("/api/contact", {
+      const response = await fetch(`${API_BASE_URL}/api/contact`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

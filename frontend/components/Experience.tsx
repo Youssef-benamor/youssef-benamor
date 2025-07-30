@@ -5,22 +5,22 @@ import { Briefcase, GraduationCap } from "lucide-react";
 export function Experience() {
   const workExperience = [
     {
-      title: "Senior Full Stack Developer",
-      company: "TechCorp Solutions",
-      period: "2022 - Present",
+      title: "junior Full Stack Developer",
+      company: "freelance",
+      period: "2024 - Present",
       description: "Lead development of enterprise applications, mentoring junior developers, and architecting scalable solutions.",
       technologies: ["React", "Node.js", "AWS", "PostgreSQL"]
     },
     {
       title: "Frontend Developer",
-      company: "Digital Agency Co.",
+      company: "travel agency freelance",
       period: "2020 - 2022",
       description: "Developed responsive web applications and improved user experience for client projects.",
       technologies: ["React", "Vue.js", "Tailwind CSS", "Figma"]
     },
     {
       title: "Junior Web Developer",
-      company: "StartupXYZ",
+      company: "Startup Beni-Khiar",
       period: "2019 - 2020",
       description: "Built and maintained company website, implemented new features, and optimized performance.",
       technologies: ["HTML", "CSS", "JavaScript", "PHP"]

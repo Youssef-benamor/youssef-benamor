@@ -57,7 +57,7 @@ export function Hero() {
               <img
                 src={Youssef}
                 alt="Youssef Benamor"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover hover:scale-105 transition-all duration-300"
               />
             </div>
             <div className="absolute -bottom-4 -right-4 w-20 h-20 bg-primary rounded-full flex items-center justify-center shadow-lg">

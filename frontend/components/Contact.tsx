@@ -206,7 +206,11 @@ export function Contact() {
                   />
                 </div>
 
-                <Button type="submit" className="w-full" disabled={loading}>
+                <Button
+                  type="submit"
+                  className="w-full hover:border-2 hover:border-primary"
+                  disabled={loading}
+                >
                   {loading ? "Sending..." : "Send Message"}
                 </Button>
 

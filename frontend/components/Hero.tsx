@@ -1,6 +1,6 @@
 import { Button } from "./ui/button";
 import { Badge } from "./ui/badge";
-import YousseF from "./figma/YousseF.jpeg";
+import yousseF from "./figma/yousseF.jpeg";
 
 // Serve the image from the public folder and reference it by path in the img src
 
@@ -57,7 +57,7 @@ export function Hero() {
           <div className="relative">
             <div className="w-80 h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-primary/10">
               <img
-                src={YousseF}
+                src={yousseF}
                 alt="Youssef Benamor"
                 className="w-full h-full object-cover hover:scale-105 transition-all duration-300"
               />
